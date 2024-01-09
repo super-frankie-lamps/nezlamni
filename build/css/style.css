@@ -595,11 +595,6 @@ video {
   margin-right: auto;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -710,6 +705,16 @@ video {
   line-height: 1.5;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -718,20 +723,14 @@ video {
   margin-right: auto;
 }
 
-.donete_section {
-  background-image: url(../img/bg.jpg);
-}
-
-.text_w {
-  color: #fff;
+.donate_section {
+  background: url(../img/bg.jpg) center;
 }
 
 .button {
-  display: inline-flex;
   padding: 16px 20px;
   gap: 10px;
   background: #FCAF17;
-  color: black;
 }
 
 .hover\:opacity-90:hover {

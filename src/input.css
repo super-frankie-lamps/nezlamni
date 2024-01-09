@@ -11,18 +11,12 @@
    margin-right: auto;
 }
 
-.donete_section {
-   background-image: url(../img/bg.jpg);
-}
-
-.text_w {
-   color: #fff;
+.donate_section {
+   background: url(../img/bg.jpg) center;
 }
 
 .button {
-   display: inline-flex;
    padding: 16px 20px;
    gap: 10px;
    background: #FCAF17;
-   color: black;
 }
