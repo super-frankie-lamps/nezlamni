@@ -17,12 +17,6 @@
    background: #FCAF17;
 }
 
-.donate_section {
-   background: url(../img/bg.jpg) center;
-   background-attachment: scroll;
-   background-size: cover;
-}
-
 .map_section {
    background: url(../img/bg1.jpeg) center;
    background-size: cover;
@@ -50,4 +44,17 @@
 }
 .item_6 {
    background: url(../img/06.png) no-repeat left bottom;
+}
+
+.donate_section {
+   background: url(../img/bg_mob.jpg) center;
+}
+
+@media (min-width: 1024px) {
+   .donate_section {
+      background: url(../img/bg.jpg) center;
+   }
+   .button {
+      padding: 14px 20px;
+   }
 }
