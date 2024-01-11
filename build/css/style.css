@@ -619,6 +619,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -648,6 +652,10 @@ video {
   row-gap: 3.5rem;
 }
 
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -658,13 +666,29 @@ video {
   padding: 1rem;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-\[28px\] {
   font-size: 28px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .text-\[54px\] {
@@ -723,14 +747,50 @@ video {
   margin-right: auto;
 }
 
-.donate_section {
-  background: url(../img/bg.jpg) center;
-}
-
 .button {
   padding: 16px 20px;
   gap: 10px;
   background: #FCAF17;
+}
+
+.donate_section {
+  background: url(../img/bg.jpg) center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.map_section {
+  background: url(../img/bg1.jpeg) center;
+  background-size: cover;
+}
+
+.item {
+  width: 360px;
+  padding: 30px;
+}
+
+.item_1 {
+  background: url(../img/01.png) no-repeat left bottom;
+}
+
+.item_2 {
+  background: url(../img/02.png) no-repeat left bottom;
+}
+
+.item_3 {
+  background: url(../img/03.png) no-repeat left bottom;
+}
+
+.item_4 {
+  background: url(../img/04.png) no-repeat left bottom;
+}
+
+.item_5 {
+  background: url(../img/05.png) no-repeat left bottom;
+}
+
+.item_6 {
+  background: url(../img/06.png) no-repeat left bottom;
 }
 
 .hover\:opacity-90:hover {
