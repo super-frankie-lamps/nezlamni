@@ -11,12 +11,43 @@
    margin-right: auto;
 }
 
-.donate_section {
-   background: url(../img/bg.jpg) center;
-}
-
 .button {
    padding: 16px 20px;
    gap: 10px;
    background: #FCAF17;
+}
+
+.donate_section {
+   background: url(../img/bg.jpg) center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+
+.map_section {
+   background: url(../img/bg1.jpeg) center;
+   background-size: cover;
+}
+
+.item {
+   width: 360px;
+   padding: 30px;
+}
+
+.item_1 {
+   background: url(../img/01.png) no-repeat left bottom;
+}
+.item_2 {
+   background: url(../img/02.png) no-repeat left bottom;
+}
+.item_3 {
+   background: url(../img/03.png) no-repeat left bottom;
+}
+.item_4 {
+   background: url(../img/04.png) no-repeat left bottom;
+}
+.item_5 {
+   background: url(../img/05.png) no-repeat left bottom;
+}
+.item_6 {
+   background: url(../img/06.png) no-repeat left bottom;
 }
