@@ -655,10 +655,6 @@ video {
   row-gap: 2rem;
 }
 
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -669,21 +665,9 @@ video {
   padding: 1rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-center {
@@ -694,13 +678,6 @@ video {
   font-size: 28px;
 }
 
-.text-\[32px\] {
-  font-size: 32px;
-}
-
-.text-\[54px\] {
-  font-size: 54px;
-}
 .text-\[40px\] {
   font-size: 40px;
 }
@@ -770,7 +747,7 @@ video {
 
 .item {
   width: 360px;
-  padding: 30px;
+  padding: 30px 0 30px 30px;
 }
 
 .item_1 {
@@ -796,6 +773,7 @@ video {
 .item_6 {
   background: url(../img/06.png) no-repeat left bottom;
 }
+
 .donate_section {
   background: url(../img/bg_mob.jpg) center;
 }
@@ -807,6 +785,11 @@ video {
 
   .button {
     padding: 14px 20px;
+  }
+
+  .item {
+    width: 360px;
+    padding: 30px;
   }
 }
 
@@ -852,6 +835,10 @@ video {
     row-gap: 3.5rem;
   }
 
+  .lg\:gap-y-8 {
+    row-gap: 2rem;
+  }
+
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -859,6 +846,10 @@ video {
 
   .lg\:text-\[18px\] {
     font-size: 18px;
+  }
+
+  .lg\:text-\[32px\] {
+    font-size: 32px;
   }
 
   .lg\:text-\[54px\] {
