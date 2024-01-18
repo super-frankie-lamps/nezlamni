@@ -3,6 +3,11 @@ module.exports = {
   content: ['./build/*.html', "./build/js/*.js"],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        montserratSemiBold: ["Montserrat-SemiBold", "sans-serif"],
+        montserratBold: ["Montserrat-Bold", "sans-serif"],
+      },
       keyframes: {
         'open-menu': {
           '0%': { opacity: '0', backgroundColor: 'rgba(0, 0, 0, 0.5)' },
