@@ -12,6 +12,15 @@ const initApp = () => {
 	};
 
 	hamburgerBtn.addEventListener('click', toggleMenu);
+
+	if (jarallax) {
+		jarallax(document.querySelectorAll('.parallax'), {
+			speed: 0.8,
+			disableParallax: function () {
+				return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+			  },
+		});
+	}
 }
 
 document.addEventListener('DOMContentLoaded', initApp);

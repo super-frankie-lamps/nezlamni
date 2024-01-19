@@ -578,6 +578,14 @@ video {
   }
 }
 
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -596,6 +604,10 @@ video {
 
 .top-4 {
   top: 1rem;
+}
+
+.z-0 {
+  z-index: 0;
 }
 
 .z-10 {
@@ -671,6 +683,10 @@ video {
   max-width: 500px;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes close-menu {
   0% {
     opacity: 1;
@@ -733,6 +749,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize {
+  resize: both;
 }
 
 .list-image-\[url\(\.\.\/img\/ellipse\.jpg\)\] {
@@ -955,6 +975,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -984,19 +1008,19 @@ video {
 @font-face {
   font-family: "Montserrat";
 
-  src: url("../build/fonts/Montserrat-Medium.ttf");
+  src: url("../fonts/Montserrat-Medium.ttf");
 }
 
 @font-face {
   font-family: "Montserrat-SemiBold";
 
-  src: url("../build/fonts/Montserrat-SemiBold.ttf");
+  src: url("../fonts/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "Montserrat-Bold";
 
-  src: url("../build/fonts/Montserrat-Bold.ttf");
+  src: url("../fonts/Montserrat-Bold.ttf");
 }
 
 .container {
@@ -1047,12 +1071,12 @@ video {
 }
 
 .donate_section {
-  background: url(../img/bg_mob.jpg) center;
+  background-image: url(../img/bg_mob.jpg);
 }
 
 @media (min-width: 1024px) {
   .donate_section {
-    background: url(../img/bg.jpg) center;
+    background-image: url(../img/bg.jpeg);
   }
 
   .button {
