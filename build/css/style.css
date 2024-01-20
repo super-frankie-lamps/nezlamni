@@ -907,6 +907,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/img\/arrow\.png\'\)\] {
+  background-image: url('../img/arrow.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/finish_flag\.png\'\)\] {
+  background-image: url('../img/finish_flag.png');
+}
+
 .bg-\[\] {
   background-color: ;
 }
@@ -1007,12 +1015,20 @@ video {
   background-size: contain;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-right {
   background-position: right;
 }
 
 .bg-left {
   background-position: left;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-center {
@@ -1067,8 +1083,16 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pl-\[42px\] {
+  padding-left: 42px;
+}
+
 .pl-\[6px\] {
   padding-left: 6px;
+}
+
+.pr-\[42px\] {
+  padding-right: 42px;
 }
 
 .pt-12 {
@@ -1454,6 +1478,10 @@ video {
     margin-top: 2.5rem;
   }
 
+  .lg\:h-3 {
+    height: 0.75rem;
+  }
+  
   .lg\:flex {
     display: flex;
   }
@@ -1466,6 +1494,14 @@ video {
     height: 2rem;
   }
 
+  .lg\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .lg\:w-\[960px\] {
+    width: 960px;
+  }
+  
   .lg\:h-3 {
     height: 0.75rem;
   }
