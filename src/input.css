@@ -38,6 +38,11 @@
    background: #FCAF17;
 }
 
+.jumbotron_section {
+   background: url(../img/bg_jumbotron.jpg) center;
+   background-size: cover;
+}
+
 .map_section {
    background: url(../img/bg1.jpeg) center;
    background-size: cover;
