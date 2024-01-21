@@ -38,6 +38,13 @@
    background: #FCAF17;
 }
 
+.check_item {
+   background: url(../img/check_icon.png) no-repeat center top;
+   max-width: 360px;
+   padding-top: 50px;
+   text-align: center;
+}
+
 .jumbotron_section {
    background: url(../img/bg_jumbotron.jpg) center;
    background-size: cover;
